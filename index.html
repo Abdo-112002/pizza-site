@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>Dine Out - Restaurant</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- custom css files -->
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js" integrity="sha512-zYXldzJsDrNKV+odAwFYiDXV2Cy37cwizT+NkuiPGsa9X1dOz04eHvUWVuxaJ299GvcJT31ug2zO4itXBjFx4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+    <a href="#" id="scroll-top"><img  loading="lazy" src="img/pexels-ponyo-sakana-5088640__1_-removebg-preview.png"></a>
+    <div class="loading">
+        <img  loading="lazy" src="img/pexels-ponyo-sakana-5088640__1_-removebg-preview.png" alt="">
+    </div><!-- ./loading -->
+
+      <!-- start header -->
+        <header >
+            <div class="container">
+                <div class="row justify-content align-items-center">
+                    <div class="logo"><img  loading="lazy" src="img/logo.png" alt="our logo"></div>
+                    <div class="mode">
+                       <img  loading="lazy" src="img/dark/sun.png" class="dark-light">
+                       
+                       <button class="nav-toggle" type="button" id="open">
+                           <span></span>
+                       </button>
+                    </div><!-- ./mode -->
+                    <nav class="nav" id="navbar">
+                      <span class="close" id="close-bar">+</span>
+                        <ul>
+                            <li class="nav-item"><a href="#home">home</a></li>
+                            <li class="nav-item"><a href="#about">about</a></li>
+                            <li class="nav-item"><a href="#our-menu">our menu</a></li>
+                            <li class="nav-item"><a href="#testimonials">testimonials</a></li>
+                            <li class="nav-item"><a href="#team">team</a></li>
+                            <li class="nav-item"><a href="#contact">contact us</a></li>
+                        </ul>
+                    </nav><!-- ./nav -->
+                </div><!-- ./row -->
+            </div><!-- ./container -->
+        </header>
+      <!-- end header -->
+
+
+      <!-- home section start -->
+          <section class="home-section" id="home">
+             <div class="home-bg"></div>
+              <div class="container">
+                   <div class="row min-vh-100  align-items-center  justify-content">
+                        <div class="home-text" data-aos="fade-up" >
+                              <h1>Dine Out Restaurant</h1>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quibusdam impedit dolores velit voluptatem blanditiis!</p>
+                              <a href="#our-menu" class="btn btn-defult">our menu</a>
+                        </div><!-- ./home-text -->
+                        <img  loading="lazy" src="img/pexels-ponyo-sakana-5088640__1_-removebg-preview.png" id="home-img">
+                   </div><!-- ./row -->
+              </div><!-- ./container -->
+          </section><!-- ./home-section -->
+      <!-- home section end -->
+     
+
+      <!-- about section start -->
+            <section class="about-section sec-padding" id="about">
+                <div class="container">
+                    <div class="row ">
+                        <div class="section-title">
+                            <h2 data-title="our story" >about us</h2>
+                        </div><!-- ./section-title -->
+                    </div><!-- ./row -->
+                    <div class="row">
+                        <div class="about-text" >
+                            <h3>Welcome To Dine Out Restaurant</h3>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni porro ab maiores pariatur id, blanditiis perspiciatis modi harum aliquam molestiae, beatae excepturi ex nobis totam tempora, sed eveniet iure blanditiis perspiciatis modi harum aliquam molestiae.
+                            </p>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni porro ab maiores pariatur id, blanditiis perspiciatis modi harum aliquam molestiae, beatae excepturi ex nobis totam tempora, sed eveniet iure blanditiis perspiciatis modi harum aliquam molestiae.
+                            </p>
+                            <a href="#" class="btn btn-defult">Check Our Menu</a>
+                        </div><!-- ./about-text -->
+                        <div class="about-img">
+                            <div class="img-box">
+                               <h3>20+ years experience</h3>
+                               <img  loading="lazy"  src="img/about-img.jpg" alt="" id="about-imgs">
+                            </div>
+                        </div><!-- ./about-img -->
+                    </div><!-- ./row -->
+                </div><!-- ./container -->
+            </section><!-- ./about-section -->
+      <!-- about section end -->
+
+
+      <!-- menu section start  -->
+            <section class="menu-section sec-padding" id="our-menu">
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                          <h2 data-title="order now" >our menu</h2>
+                        </div><!-- ./section-title -->
+                    </div><!-- ./row -->
+                    <div class="row">
+                        <div class="menu-tabs newAction" >
+                            <button type="button" class="menu-tab-item active" data-target="#lunch">lunch</button>
+                            <button type="button" class="menu-tab-item" data-target="#dinner">dinner</button>
+                            <button type="button" class="menu-tab-item" data-target="#drinks">drinks</button>
+                            <button type="button" class="menu-tab-item" data-target="#desserts">desserts</button>
+                        </div><!-- ./menu-tabs -->
+                    </div><!-- ./row -->
+                    <div class="row  menu-tab-content active" id="lunch" >
+                          <div class="menu-item">
+                              <div class="menu-item-title">
+                                  <img  loading="lazy" src="img/menu/1-min.jpg" alt="menu item thumbnail" id="imging"> 
+                                  <h3>lunch item</h3>
+                              </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                  $40.00
+                              </div><!-- ./menu-item-price -->
+                          </div><!-- ./menu-item -->
+                          <div class="menu-item">
+                            <div class="menu-item-title">
+                                <img  loading="lazy" src="img/menu/2-min.jpg" alt="menu item thumbnail" id="imging"> 
+                                <h3>lunch item</h3>
+                            </div><!-- ./menu-item-title -->
+                            <div class="menu-item-price">
+                                $40.00
+                            </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/3-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>lunch item</h3>
+                          </div><!-- ./menu-item-title -->
+                          <div class="menu-item-price">
+                              $40.00
+                          </div><!-- ./menu-item-price -->
+                      </div><!-- ./menu-item -->
+                      <div class="menu-item">
+                        <div class="menu-item-title">
+                            <img  loading="lazy" src="img/menu/4-min.jpg" alt="menu item thumbnail" id="imging"> 
+                            <h3>lunch item</h3>
+                        </div><!-- ./menu-item-title -->
+                            <div class="menu-item-price">
+                               $40.00
+                            </div><!-- ./menu-item-price -->
+                      </div><!-- ./menu-item -->
+                      <div class="menu-item">
+                        <div class="menu-item-title">
+                            <img  loading="lazy" src="img/menu/5-min.jpg" alt="menu item thumbnail" id="imging"> 
+                            <h3>lunch item</h3>
+                        </div><!-- ./menu-item-title -->
+                            <div class="menu-item-price">
+                               $40.00
+                            </div><!-- ./menu-item-price -->
+                      </div><!-- ./menu-item -->
+                      <div class="menu-item">
+                        <div class="menu-item-title">
+                            <img  loading="lazy" src="img/menu/6-min.jpg" alt="menu item thumbnail" id="imging"> 
+                            <h3>lunch item</h3>
+                        </div><!-- ./menu-item-title -->
+                            <div class="menu-item-price">
+                               $40.00
+                            </div><!-- ./menu-item-price -->
+                      </div><!-- ./menu-item -->
+                      <div class="menu-item">
+                        <div class="menu-item-title">
+                            <img  loading="lazy" src="img/menu/7-min.jpg" alt="menu item thumbnail" id="imging"> 
+                            <h3>lunch item</h3>
+                        </div><!-- ./menu-item-title -->
+                            <div class="menu-item-price">
+                               $40.00
+                            </div><!-- ./menu-item-price -->
+                      </div><!-- ./menu-item -->
+                      <div class="menu-item">
+                        <div class="menu-item-title">
+                            <img  loading="lazy" src="img/menu/8-min.jpg" alt="menu item thumbnail" id="imging"> 
+                            <h3>lunch item</h3>
+                        </div><!-- ./menu-item-title -->
+                            <div class="menu-item-price">
+                               $40.00
+                            </div><!-- ./menu-item-price -->
+                      </div><!-- ./menu-item -->
+                    </div><!-- ./row  -->
+
+                    <div class="row  menu-tab-content " id="dinner" >
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/1-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>dinner item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $30.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/2-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>dinner item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $30.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/3-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>dinner item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $30.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/4-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>dinner item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $30.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                    </div><!-- ./row -->
+
+                    <div class="row  menu-tab-content " id="drinks" >
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/d1-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>drinks item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $20.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/d2-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>drinks item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $20.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/d3-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>drinks item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $20.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                    </div><!-- ./row -->
+
+                    <div class="row  menu-tab-content " id="desserts">
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/i1 (1)-min.jpg" alt="menu item thumbnail" id="imging" id="imging"> 
+                              <h3>desserts item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $10.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/i1 (2)-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>desserts item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $10.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/i1 (3)-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>desserts item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $10.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/i1 (4)-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>desserts item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $10.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/i1 (5)-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>desserts item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $10.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/i1 (6)-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>desserts item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $10.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                        <div class="menu-item">
+                          <div class="menu-item-title">
+                              <img  loading="lazy" src="img/menu/i1 (7)-min.jpg" alt="menu item thumbnail" id="imging"> 
+                              <h3>desserts item</h3>
+                          </div><!-- ./menu-item-title -->
+                              <div class="menu-item-price">
+                                $10.00
+                              </div><!-- ./menu-item-price -->
+                        </div><!-- ./menu-item -->
+                    </div><!-- ./row -->
+                </div><!-- ./container -->
+
+                <div class="menu-popup min-vh-100  align-items-center">
+                    <span id="close-popup-foode">+</span>
+                    <img  loading="lazy"  src="img/menu/5-min.jpg" alt="" id="img-popup">
+                </div><!-- ./menu-popup -->
+
+            </section><!-- ./menu-section  -->
+      <!-- menu section end  -->
+
+
+      <!-- start testimonials section  -->
+            <div class="testimonial-section sec-padding" id="testimonials">
+                  <div class="container">
+                      <div class="row">
+                          <div class="section-title">
+                            <h2 data-title="testimonials" >some feedbacks</h2>
+                          </div><!-- ./section-title -->
+                      </div><!-- ./row  -->
+                      <div class="row justify-content ">
+
+                            <div class="testi-item" >
+                                <div class="testi-other">
+                                    <div class="testi-other-name">
+                                        <h3>raj himachal</h3>
+                                        <span>food specialist</span>
+                                    </div>
+                                    <div class="testi-other-img">
+                                        <img src="img/testimonials/1.jpg" alt="">
+                                    </div>
+                                </div><!-- ./testi-other -->
+                                <p>
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quibusdam impedit dolores velit voluptatem blanditiis!
+                                </p>
+                                <div class="ratings">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div><!-- ./ testi-item-->
+                            
+                            <div class="testi-item" >
+                              <div class="testi-other">
+                                  <div class="testi-other-name">
+                                      <h3>raj himachal</h3>
+                                      <span>food specialist</span>
+                                  </div>
+                                  <div class="testi-other-img">
+                                      <img src="img/testimonials/2.jpg" alt="">
+                                  </div>
+                              </div><!-- ./testi-other -->
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quibusdam impedit dolores velit voluptatem blanditiis!
+                              </p>
+                              <div class="ratings">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                              </div>
+                          </div><!-- ./ testi-item-->
+
+                          <div class="testi-item">
+                            <div class="testi-other">
+                                <div class="testi-other-name">
+                                    <h3>raj himachal</h3>
+                                    <span>food specialist</span>
+                                </div>
+                                <div class="testi-other-img">
+                                    <img src="img/testimonials/3.jpg" alt="">
+                                </div>
+                            </div><!-- ./testi-other -->
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quibusdam impedit dolores velit voluptatem blanditiis!
+                            </p>
+                            <div class="ratings">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                         </div><!-- ./ testi-item-->
+
+                      </div><!-- ./row -->
+                  </div><!-- ./container -->
+            </div><!-- ./testimonial-section -->
+      <!-- end testimonials section  -->
+
+
+      <!-- team section start -->
+            <section class="team-section sec-padding" id="team">
+                <div class="container">
+                    <div class="row">
+                      <div class="section-title">
+                        <h2 data-title="team" >our chefs</h2>
+                      </div><!-- ./section-title -->
+                    </div><!-- ./row -->
+
+                    <div class="row ">
+
+                        <button type="button" id="righting" class="btn"><i class="fas fa-chevron-right"></i></button>
+                        <button type="button" id="lefting" class="btn"><i class="fas fa-chevron-left"></i></button>
+
+                        <div class="team justify-content align-items-center" id="teams">
+
+                              <div class="team-item">
+                                  <img src="img/team/1.jpg" alt="team item">
+                                  <div class="team-item-info">
+                                      <h3>raj himachal</h3>
+                                      <p>head chef</p>
+                                  </div><!-- ./team-item-info -->
+                              </div><!-- ./team-item -->
+
+                              
+                            <div class="team-item">
+                              <img src="img/team/3.jpg" alt="team item">
+                              <div class="team-item-info">
+                                  <h3>raj himachal</h3>
+                                  <p>head chef</p>
+                              </div><!-- ./team-item-info -->
+                          </div><!-- ./team-item -->
+
+                              <div class="team-item">
+                                <img src="img/team/2.jpg" alt="team item">
+                                <div class="team-item-info">
+                                    <h3>raj himachal</h3>
+                                    <p>head chef</p>
+                                </div><!-- ./team-item-info -->
+                            </div><!-- ./team-item -->
+
+                              <div class="team-item">
+                                <img src="img/team/3.jpg" alt="team item">
+                                <div class="team-item-info">
+                                    <h3>raj himachal</h3>
+                                    <p>head chef</p>
+                                </div><!-- ./team-item-info -->
+                            </div><!-- ./team-item -->
+
+                            <div class="team-item">
+                              <img src="img/team/1.jpg" alt="team item">
+                              <div class="team-item-info">
+                                  <h3>raj himachal</h3>
+                                  <p>head chef</p>
+                              </div><!-- ./team-item-info -->
+                          </div><!-- ./team-item -->
+
+                            <div class="team-item">
+                              <img src="img/team/2.jpg" alt="team item">
+                              <div class="team-item-info">
+                                  <h3>raj himachal</h3>
+                                  <p>head chef</p>
+                              </div><!-- ./team-item-info -->
+                          </div><!-- ./team-item -->
+
+
+                        </div><!-- ./team -->
+                    </div><!-- ./row -->
+                </div><!-- ./container -->
+            </section><!-- ./team-section -->
+      <!-- team section end -->
+
+
+      <!-- footer section start  -->
+            <footer class="footer-section" id="contact">
+                <div class="container">
+                    <div class="row justify-content align-items-center">
+                        <div class="footer-item" >
+                            <h3>our location</h3>
+                            <p>xyz street, sector-12 <br>new delhi - 000 ****</p>
+                        </div>
+                        <div class="footer-item" >
+                            <h3>opening hours</h3>
+                            <p>monday to sunday <br>9:00 am - 10:00 pm</p>
+                        </div>
+                        <div class="footer-item" >
+                            <h3>contact us</h3>
+                            <p>91 9574 451 ***</p>
+                            <p>info@gmail.com</p>
+                            <div class="social-links">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                        </div>
+                    </div><!-- ./row -->
+                    <div class="row">
+                      <div class="copy-right" >
+                          &copy; 2021 - designed by Abdo Ibrahem
+                      </div>
+                    </div><!-- ./ row-->
+                </div><!-- ./container -->
+            </footer><!-- ./footer-section -->
+      <!-- footer section end  -->
+
+
+
+      <script src="js/aos.js"></script> 
+      <script src="js/script.js"></script>
+
+  </body>
+</html>
